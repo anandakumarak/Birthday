@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HappyBirthday KD</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      /* Add custom styling for the birthday GIF */
+      .birthday-gif {
+        width: 100%;
+        max-width: 400px; /* Max width for large screens */
+        height: auto;
+        margin: 20px auto; /* Center and add space above */
+        border-radius: 20px; /* Rounded corners */
+        display: block;
+      }
+    </style>
+  </head>
+  <body> 
+    <body>
+      
+      <div class="balloons">
+        <img src="images/heart.png">
+        <img src="images/red.png">
+        <img src="images/heart2.png">
+        <img src="images/ball1.png">
+        <img src="images/heart.png">
+        <img src="images/blue.png">
+        <img src="images/heart.png">
+        <img src="images/blue.png">
+        <img src="images/red.png">
+        <img src="images/heart2.png">
+        </div>
+      <!-- Rest of your existing HTML content -->
+    
+       <nav id="desktop-nav">
+      <div class="logo">Hey, Devi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Moment</a></li>
+          <li><a href="#projects">Memories</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hey, Devi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Moment</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Memories</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Birthday GIF with center alignment and rounded corners -->
+    <audio id="birthday-audio" loop>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <source src="images/aa2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    
+    <img src="images/icegif-149.gif" alt="Happy Birthday GIF" class="birthday-gif" onclick="toggleMusic()">
+    <p class="section__text__p1">Click this minion</p>
+    <br>
+    <br>
+    <h1 class="title1">Happy Birthday Devi</h1>
+    
+    <script>
+      function toggleMusic() {
+        const audio = document.getElementById('birthday-audio');
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
+    </script>
+    
+  <br>
+  <br>  
+  <br>
+
+  <img src="images/kd.png" alt="KD" class="birthday-gif" style="width: 300px; height: auto;">
+
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="images/kda.png" alt="KD's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">HappyBirthday Madam</p>
+        <h1 class="title">Devi</h1>
+        <p class="section__text__p2">Doctor Amma</p>
+        <style>
+          /* Message styling */
+          .birthday-message {
+            display: none; /* Hidden by default */
+            padding: 20px;
+            background-color: #ffe4e1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: 20px auto;
+            max-width: 300px;
+            font-size: 18px;
+            color: #b22222;
+            transition: opacity 0.5s ease; /* Smooth transition */
+            opacity: 0; /* Fully transparent by default */
+          }
+          /* Visible class for the birthday message */
+          .birthday-message.visible {
+            display: block;
+            opacity: 1; /* Fully opaque when visible */
+          }
+        </style>
+      </head>
+      <body>
+      
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="showBirthdayMessageAndDownload()"
+        >
+          Wish Her
+        </button>
+      </div>
+      
+      <!-- Happy Birthday Message -->
+      <div class="birthday-message" id="birthdayMessage">
+        🎉 Happy Birthday! Wishing you all the happiness on your special day! 🎉
+      </div>
+      
+      <script>
+        // Show the birthday message, hide after 2 seconds, and open the PDF
+        function showBirthdayMessageAndDownload() {
+          const message = document.getElementById("birthdayMessage");
+          
+          // Display the message
+          message.classList.add("visible");
+      
+          // Hide the message after 2 seconds
+          setTimeout(() => {
+            message.classList.remove("visible");
+          }, 3000);
+      
+          // Open the PDF in a new window
+        }
+      </script>
+          <br>
+        <div class="btn-container">
+         <button
+             class="btn btn-color-1"
+            onclick="location.href='https://www.instagram.com/devithangaraj_10?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='">Instagram
+          </button>
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="images/anime.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Earth is Lucky to Have you for</h3>
+              <p>21 years <br />7671 Days <br />662.8M Seconds</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Likes</h3>
+              <p>Soru Soru Soru Soru Soru Soru Soru Soru<br /> Soru <br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, Kali Devi Madam🙄.</p><br>
+              <p>Kali Devi ahead! Just kidding, she hates that. Call her Devi, or she'll give you the side-eye.</p>
+<br>  
+              <p>Funny & Lighthearted : </p>
+
+                <p>   1.  "Happy birthday, Devi! You're officially older, wiser, and still refusing to acknowledge the 'Kali' part of your name."</p>
+                <p>   2.  "Devi turns 21! Warning: cake, laughter, and zero mentions of Kali ahead."</p>
+                <p>   3. "Happy birthday to our favorite Devi (no, we won't say the other name). May your day be as bright as your personality!"
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <section id="experience">
+      <p class="section__text__p1">Explore</p>
+      <h1 class="title">Moments in Time</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SAW YOU ON</h3>
+                  <p>??/08/2017</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OUR PATHS CROSSED</h3>
+                  <p>10.11.2022</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LAST SEEN ON</h3>
+                  <p>29.03.2019</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FIRST BLOCK ON</h3>
+                  <p>17.07.2024</p>
+                </div>
+              </article>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section id="projects">
+      <p class="section__text__p1">Where memories meet innovation</p>
+      <h1 class="title">Memories</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/IMG_20221004_154931.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Little Munchkin</h2>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/IMG_20220616_005933.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Blooming Beauty</h2>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/kdnew1.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Eternal Radiance</h2>
+            <div class="btn-container">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <br>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Moment</a></li>
+            <li><a href="#projects">Memories</a></li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <p>Copyright &#169; 2024 KD's Birthday. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
